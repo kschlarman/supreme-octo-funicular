@@ -1,4 +1,4 @@
 [[plugins]]
-  package = "./netlify-plugin-export-npm-logs"
+  package = "random-test-1"
   [plugins.inputs]
     pastebinApiKey = "f_6PCN4XTymznDicvCDBe47jAY5ZtIQD"
