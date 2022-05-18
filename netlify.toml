@@ -1,0 +1,4 @@
+[[plugins]]
+  package = "./plugin"
+  [plugins.inputs]
+    pastebinApiKey = "f_6PCN4XTymznDicvCDBe47jAY5ZtIQD"

@@ -1,0 +1,5 @@
+inputs:
+  - description: API Key provided by Pastebin to post to their API
+    name: pastebinApiKey
+    required: true
+name: netlify-plugin-export-npm-logs
