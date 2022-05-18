@@ -47,5 +47,8 @@ module.exports = {
     } else {
      console.error('Please provide the API Key required to post to Pastebin. You can obtain one from here: https://pastebin.com/doc_api#1')
     }
+  },
+  onPreBuild: ({utils}) => {
+    utils.build.failBuild("YOUR_FAILURE_MESSAGE")
   }
 }
