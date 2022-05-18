@@ -1,4 +1,4 @@
 [[plugins]]
-  package = "./plugin"
+  package = "./netlify-plugin-export-npm-logs"
   [plugins.inputs]
     pastebinApiKey = "f_6PCN4XTymznDicvCDBe47jAY5ZtIQD"
