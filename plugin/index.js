@@ -1,8 +1,8 @@
 const axios = require('axios')
-const {exec} = require('child_process')
+const exec = require('child_process').exec
 const fs = require('fs/promises')
-const {resolve} = require('path')
-const {stringify} = require('qs')
+const resolve = require('path').resolve
+const stringify = require('qs').stringify
 module.exports = {
   onError: ({inputs}) => {
     if (inputs.pastebinApiKey) {
